@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>patricia site</title>
+    <!-- BOOTSTRAP -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Pacifico&family=Ubuntu&display=swap" rel="stylesheet">
+
+<!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/ab3c8a1593.js" crossorigin="anonymous"></script>
+<!-- styles.css link -->
+    <link rel="stylesheet" href="CSS/styles.css">
+
+  </head>
+  <body>
+    <section id="navbar-area">
+      <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bgcolor">
+
+          <img class="patricia-logo" src="images/patricia-logo.svg" alt="">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+              </li>
+
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Products
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Refill</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">OTC</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Learn</a>
+              </li>
+
+              <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Resources
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Blog</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Help Center</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">FAQs</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Dictionary</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link " href="#">Careers</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="search-button btn btn-light btn-sm my-2 my-sm-0" type="submit">Search</button>
+              <button class="search-button2 btn  btn-warning btn-sm my-2 my-sm-0" type="submit">Create account</button>
+            </form>
+          </div>
+        </nav>
+
+      </div>
+
+
+
+    </section>
+
+
+<section id="sectionone">
+  <div class="container">
+      <img class="astronut" src="images/metaverseboy.jpg" alt="astronut">
+      <div class="bigrow">
+    <!-- <div class="row"> -->
+
+        <!-- <div class="col-lg-6"> -->
+          <h1 class="thish1">world's easiest  <br>crypto exchange</h1>
+          <p class="thisptag">join millions of people in explorring cryptocurrecies
+          <br> in this new decade</p>
+          <button type="button" class="play-store btn btn-light btn-lg"><i class="fab fa-google-play"></i>Download</button>
+          <button type="button" class="apple btn btn-light btn-lg"><i class="fab fa-apple"></i>Download</button>
+        </div>
+
+      <!-- <div class="col-lg-6">
+        <img class="phone-image" src="images/patricia-image2.png" alt="pat">
+      </div> -->
+
+      <div class="bitcoin">
+        <img class="bitcoin1" src="images/best-bitcoin.jpg" alt="bitcoin">
+        <img class="bitcoin1" src="images/best-bitcoin.jpg" alt="bitcoin">
+        <img class="bitcoin1" src="images/best-bitcoin.jpg" alt="bitcoin">
+        <img class="bitcoin1" src="images/best-bitcoin.jpg" alt="bitcoin">
+        <img class="bitcoin1" src="images/best-bitcoin.jpg" alt="bitcoin">
+        <img class="bitcoin1" src="images/best-bitcoin.jpg" alt="bitcoin">
+      </div>
+
+
+  </div>
+
+
+</section>
+
+
+<!-- <section id="second-section">
+  <div class="secondcontainer">
+
+    <div class="bigrow2">
+      <div class="row">
+
+        <div class="col">
+            <h1>Patricia Universe, <br>Crypto is Oxygen To Us</h1>
+            <p>We like to think of ourselves as superheroes here
+             <br>at Patricia. We aren’t in the business of doing
+            <br> things just because they are routine. We are in
+            <br> the business of creating solutions that are simply
+            <br> mind-blowing.</p>
+            <button type="button" class="btn btn-warning btn-lg">Warning</button>
+        </div>
+    </div>
+    </div>
+
+
+  </div>
+
+
+</section> -->
+
+<section id="section-three">
+
+    <div class="row">
+      <div class=" section-three col-lg-6">
+        <h1>Crypto Without <br>The Clutter</h1>
+        <p>Ever imagined crypto being fun as well  <br>as functional? Well, we too
+        have, and we have  <br>created Patricia to do just that. Come on board
+        and <br> experience crypto the redefined way.</p><br>
+        <button class="search-button4 btn  btn-sm my-2 my-sm-0" type="submit">Get started</button>
+        <br><br><img src="images/visa.svg" alt="">
+
+      </div>
+
+      <div class="col-lg-6">
+        <img  class="best-bitcoin"src="images/best-bitcoin.jpg" alt="bitcoin">
+      </div>
+    </div>
+
+</section>
+
+
+
+
+<section id="section-four">
+
+    <div class="row">
+
+      <div class="section-four col-lg-6">
+        <img  class="phone-image" src="images/patricia-image2.png" alt="">
+      </div>
+
+      <div class="col-lg-6 ">
+        <h1>Your Gateway To  <br>Crypto</h1>
+        <p>More than creating a seamless platform for you to <br> perform crypto
+         transactions, we are with you every <br> step of the way, providing you with
+        <br>tips and tricks to becoming a crypto guru.</p>
+      </div>
+
+
+
+  </div>
+
+
+</section>
+
+
+
+
+<section id="section-five">
+  <div class="row">
+
+    <div class="col-lg-4">
+      <img src="images/first-div.png" alt="">
+      <h1>Patricia is secure <br>
+        and trustworthy</h1>
+      <p>Trusted by millions globally for its secure
+        <br>platform, we are
+         <br>confident to say that <br>
+         your crypto is in the right hands.</p>
+    </div>
+
+    <div class=" col-lg-4">
+        <img src="images/second-div.png" alt="">
+      <h1>Patricia is easy-to-use</h1>
+      <p>Everyone loves an easy-to-use platform, <br>
+        that is why our top priority is providing <br>
+        you with seamless services you can enjoy
+         <br>without breaking a sweat.</p>
+    </div>
+
+    <div class="col-lg-4">
+        <img src="images/third-div.png" alt="">
+      <h1>Patricia is built <br>
+        for you</h1>
+      <p>Every one of our services is built with <br>
+         you in mind. Beating our chest we can say, <br>
+         we give you the best crypto experience.</p>
+    </div>
+  </div>
+</section>
+
+<section id="section-six">
+
+    <h1 class="container5">More Awesome Products <br>In Our Universe</h1>
+
+
+</section>
+
+<section id="section-seven">
+  <div class="conatiner9">
+    <div class="row">
+      <div class="section-seven col-lg-6">
+        <h1>Receive Payments In <br>
+           Crypto</h1>
+        <p>Patricia Business helps you accept and make
+           <br> easy and borderless payments with crypto. A
+            <br>better way to pay it your way.</p>
+            <br>
+            <button class="search-button5 btn-warning  btn-sm my-2 my-sm-0" type="submit">Join the waitlist</button>
+      </div>
+      <div class="col-lg-6">
+        <img src="images/crypto-ipad.png" alt="ipad">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section id="section-sev">
+    <h1 class="dictionary">Learn - Your Dictionary To <br>Everything Crypto</h1>
+
+    <div class="card-deck">
+
+        <div  class="card">
+          <img class="carusel1" src="images/carusel1.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title1">Crypto: the secret ingredient
+               <br> of the future</h5>
+            <p class="card-text1">Everyone has that favorite  <br>
+              meal that they can cook
+              with their <br>eyes closed.
+               While some recipes are <br>
+                easily available for anyone to <br>learn from, some come with...</p>
+
+          </div>
+        </div>
+
+      <!-- <div class="col-sm-6"> -->
+        <div  class="card">
+            <img class="carusel1" src="images/carusel2.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title1">Patricia Refill - A crypto payment <br>
+              solution for everyday payment</h5>
+            <p class="card-text1">In today’s fast-paced world, it’s easy to get <br>
+              overwhelmed with a seemingly never-ending <br>
+               stream of obligations. That’s why finding easy...</p>
+
+          </div>
+        </div>
+
+        <div  class="card">
+            <img class="astronut-pic carusel1" src="images/astronut.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title1">Crypto: the secret ingredient
+               <br> of the future</h5>
+            <p class="card-text1">Everyone has that favorite  <br>
+              meal that they can cook
+              with their <br>eyes closed.
+               While some recipes are <br>
+                easily available for anyone to <br>learn from, some come with...</p>
+
+          </div>
+        </div>
+      </div>
+</section>
+
+<section id="section-eight">
+  <div class="container8">
+    <img src="images/graduation-cap.svg" alt="">
+    <h1 class="academy">The Patricia Academy</h1>
+    <p class="academy2">Teaching you everything you need
+       <br>to know about Crypto</p>
+         <a href="#" class="btn btn-warning">Get started</a>
+         <hr>
+  </div>
+</section>
+
+<section id="section-eight2">
+  <div class="row">
+    <div class="col-lg-6">
+      <img class="customer-photo" src="images/customer-photo.webp" alt="">
+    </div>
+    <div class="academy-class col-lg-6">
+      <h1 class="academy">customer spotlight</h1>
+<br>
+<br>
+      <p class="academy2">"It really feels good to have Patricia <br>
+        around, the best platform where you <br>
+        can trade your Cryptocurrencies.<br>
+         I am blessed to be among the one in a million to experience it"</p>
+
+    </div>
+  </div>
+</section>
+
+<section id="section-sev">
+    <h1 class="dictionary">In the News</h1>
+
+    <div class="card-deck">
+
+        <div  class="card">
+          <img class="news1" src="images/news1.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">why i endorse artist to promote my business-Hanu...</h5>
+            <p class="card-text">With the structures and strategies in place, <br>
+              you can say that Fejiro Hanu Agbode’s Patricia <br>
+               is clearly heading for world domination,<br>
+                the team spirit and the zeal of their team is <br>
+                contagious. They have a clear vision and they’ll stop <br>
+                at nothing.</p>
+
+          </div>
+        </div>
+
+      <!-- <div class="col-sm-6"> -->
+        <div  class="card">
+            <img class="news2" src="images/news2.jfif" alt="">
+          <div class="card-body">
+            <h5 class="card-title">CBN crypto ban aftermath:<br>
+               Patricia relocates...</h5>
+            <p class="card-text">The ban forced players within the space to <br>
+              device new models to survive. For instance,<br>
+               Patricia announced a new platform,<br>
+                Glover Exchange as the new entity <br>
+                 responsible for the day-to-day operations <br>
+                  for its Gift cards, Airtime2Cash,  <br>
+                  and refill services (Bill Payments)</p>
+
+          </div>
+        </div>
+
+        <div  class="card">
+            <img class="news3" src="images/news3.png" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Nigeria’s Patricia Relocates To <br>
+              Estonia. Here’s What It Means...</h5>
+            <p class="card-text">The major difference between a <br>
+               foreign branch and a local company <br>
+               headquartered in Estonia is that <br>
+               the foreign company with a local branch <br>
+                in Estonia is not a different legal entity <br>
+                 than the foreign company. As such, <br>
+                 the foreign company is responsible  <br>
+                 for the activities and duties of the <br>
+                  branch in Estonia</p>
+
+          </div>
+        </div>
+      </div>
+</section>
+
+
+<section id="news-letter">
+  <div class="main-letter">
+    <h1 class="news-letter">subscribe to our news letter</h1>
+    <p class="letter-paragraph">Apart from a man tripping down the different crypto dips, <br>
+      there's a lot to explore in the Crypto space <br>
+       and we'd love to share that with you. <br>
+       Be it our product update, a new crypto fact,<br>
+        or a random recipe we pasted by accident.</p>
+        <input class="subscribe-space" type="text" name="" value="">
+        <button class="search-button3 btn btn-primary btn-sm my-2 my-sm-0" type="submit">subscribe</button>
+
+  </div>
+</section>
+
+<section id="sectionone">
+  <div class="footer-container">
+      <img class="footer-pic" src="images/coin-hand.jpg" alt="">
+<div class="bigrow3">
+  <img class="patricia-logo2" src="images/patricia-logo.svg" alt="">
+
+  <p class="footer-paragraph">Patricia is an alternative payment solutions company that facilitates the easy use of cryptocurrencies for everyday transactions. By harnessing the <br>
+     intrinsic power of Blockchain technology, Patricia is set to make Crypto easy for mankind, hereby creating a new and sustainable path for the present <br>
+     and future generations.</p>
+     <br>
+     <br>
+     <p class="footer-paragraph">ISO Certification (ISO 9001, 27001).</p>
+
+<div class="row">
+  <div class="col-lg-3">
+<ul>
+<li>Refill</li>
+ <li>Hank</li>
+   <li>Patricia Card(coming soon)</li>
+     <li>Patricia Business(coming soon)</li>
+       <li>OTC</li>
+         <li>Patricia Merch</li>
+</ul>
+  </div>
+  <div class="col-lg-3">
+<ul>
+<li>About us</li>
+<li>Careers</li>
+</ul>
+  </div>
+  <div class="col-lg-3">
+<ul>
+<li>Blog</li>
+<li>Learning portal</li>
+<li>Help centre</li>
+<li>Create ticket</li>
+<li>Crypto Dictionary</li>
+</ul>
+  </div>
+  <div class="col-lg-3">
+<ul>
+<li>privacy policy</li>
+<li>Anti-money laundering policy</li>
+<li>Terms & Conditions</li>
+</ul>
+  </div>
+
+<div class="row">
+  <div class="col-lg-6">
+    <img src="images/biggest-logo.svg" alt="">
+  </div>
+<div class="col-lg-6">
+  <h1 class="card-title">contact us</h1>
+  <a href="hello@mypatricia.co">hello@mypatricia.co</a>
+  <a href="support@mypatricia.co">support@mypatricia.co</a>
+  <br>
+  <br>
+</div>
+
+<div class="row">
+  <button type="button" class="play-store btn btn-light btn-lg"><i class="fab fa-google-play"></i>Download</button>
+  <button type="button" class="apple btn btn-light btn-lg"><i class="fab fa-apple"></i>Download</button>
+</div>
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+</section>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="index.js" charset="utf-8"></script>
+  </body>
+</html>
